@@ -1,5 +1,5 @@
 # GasTracker
-
+**Read this in other languages: [English](README.en.md), [中文](README.md).**
 GasTracker is an Ethereum gas price tracker written in Python and PyQt5. It connects to the fastest Ethereum node and updates the current gas price every 10 seconds. The price is displayed in Gwei (1 Gwei = 1e9 wei).
 
 ## Environment Setup
@@ -19,10 +19,10 @@ pip install -r requirements.txt
 
 ## Usage
 
-After activating the virtual environment and installing all the dependencies, you can run `GasTracker.py` to start the program:
+After activating the virtual environment and installing all the dependencies, you can run `main.py` to start the program:
 
 ```bash
-python GasTracker.py
+python main.py
 ```
 
 The program will display an icon in your system tray, through which you can view the current gas price. The price is displayed in different colors depending on its value:
@@ -40,4 +40,4 @@ This program uses the following Ethereum RPC nodes:
 - https://gateway.tenderly.co/public/mainnet
 - https://eth-mainnet.public.blastapi.io
 
-These nodes are sorted by response speed, and the program automatically connects to the fastest node. If you want to use other Ethereum nodes, you can modify the `rpc_nodes` list in the `GasTracker.py` file.
+These nodes are sorted by response speed, and the program automatically connects to the fastest node. If you want to use other Ethereum nodes, you can modify the `rpc_nodes` list in the `main.py` file.
