@@ -1,0 +1,4 @@
+web3
+PyQt5
+requests
+configparser
